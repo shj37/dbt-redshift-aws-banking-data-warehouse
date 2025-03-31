@@ -11,4 +11,4 @@ This project walk you through the process of designing and implementing a data w
 This project is fully documented in a [Medium article series](https://medium.com/@jushijun/building-a-banking-customer-data-warehouse-an-end-to-end-guide-using-aws-and-dbt-c058ebe7af35).
 
 ## References
-Youtube CodeWithYu https://www.youtube.com/watch?v=u0bTOXVSrQc&ab_channel=CodeWithYu
+- Youtube CodeWithYu https://www.youtube.com/watch?v=u0bTOXVSrQc&ab_channel=CodeWithYu
