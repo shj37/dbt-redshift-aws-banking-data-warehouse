@@ -4,7 +4,7 @@
 
 ## Summary
 
-This project walk you through the process of designing and implementing a data warehouse tailored for banking customer data. Leveraging AWS services like **Redshift**, S3, and Glue, alongside **dbt** for transformation, this article covers the entire end-to-end data engineering lifecycle — from conceptual design to actionable insights. Whether you’re a data engineer or analyst, this step-by-step approach will equip you to build a scalable and robust data warehouse.
+This project walk you through the process of designing and implementing a data warehouse tailored for banking customer data. Leveraging **AWS** services like **Redshift**, S3, and Glue, alongside **dbt** for transformation, this article covers the entire end-to-end data engineering lifecycle — from conceptual design to actionable insights. Whether you’re a data engineer or analyst, this step-by-step approach will equip you to build a scalable and robust data warehouse.
 
 ## Learn More
 
