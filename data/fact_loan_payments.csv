@@ -1,0 +1,11 @@
+payment_id|date_id|loan_id|customer_id|payment_amount|payment_status
+1|10|1|1|692.06|Paid
+2|2|1|1|839.21|Paid
+3|9|2|2|358.43|Paid
+4|1|2|2|921.43|Paid
+5|4|3|3|241.66|Paid
+6|4|3|3|131.83|Paid
+7|7|4|4|689.39|Paid
+8|5|4|4|313.21|Paid
+9|1|5|5|417.3|Paid
+10|3|5|5|539.3|Paid

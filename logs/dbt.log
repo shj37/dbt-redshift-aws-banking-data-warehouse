@@ -1,0 +1,56 @@
+[0m20:22:14.999504 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA96D97850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA98D01E40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA98D01C60>]}
+
+
+============================== 20:22:15.003693 | 38553213-137e-4d6f-b973-d4d2160df535 ==============================
+[0m20:22:15.003693 [info ] [MainThread]: Running with dbt=1.9.3
+[0m20:22:15.004703 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Shiju\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:22:48.603481 [debug] [MainThread]: Starter project path: C:\Users\Shiju\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m20:22:48.628744 [info ] [MainThread]: 
+Your new dbt project "dbt_redshift_datawarehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:22:48.629741 [info ] [MainThread]: Setting up your profile.
+[0m20:22:53.189851 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m20:22:53.190852 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m20:23:35.725830 [info ] [MainThread]: Profile dbt_redshift_datawarehouse written to C:\Users\Shiju\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:23:35.728451 [debug] [MainThread]: Command `dbt init` succeeded at 20:23:35.728451 after 80.83 seconds
+[0m20:23:35.729395 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA96D97850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA98D01C00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BA98D01F60>]}
+[0m20:23:35.730528 [debug] [MainThread]: Flushing usage events
+[0m20:23:35.983498 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m01:23:28.481718 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AAFD173880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AAFF0E5E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AAFF0E5C30>]}
+
+
+============================== 01:23:28.489348 | fd7a59f8-5162-4fd9-aea0-c67f7c704394 ==============================
+[0m01:23:28.489348 [info ] [MainThread]: Running with dbt=1.9.3
+[0m01:23:28.490348 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Shiju\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m01:23:28.518280 [info ] [MainThread]: dbt version: 1.9.3
+[0m01:23:28.518280 [info ] [MainThread]: python version: 3.10.8
+[0m01:23:28.518280 [info ] [MainThread]: python path: C:\Users\Shiju\AppData\Local\Programs\Python\Python310\python.exe
+[0m01:23:28.518280 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m01:23:31.818055 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m01:23:31.818055 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m01:23:32.540620 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m01:23:32.540620 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m01:23:32.540620 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m01:23:33.425544 [info ] [MainThread]: Using profiles dir at C:\Users\Shiju\.dbt
+[0m01:23:33.425544 [info ] [MainThread]: Using profiles.yml file at C:\Users\Shiju\.dbt\profiles.yml
+[0m01:23:33.425544 [info ] [MainThread]: Using dbt_project.yml file at D:\data engineering\DBT\aws_design_data_warehouse\dbt_project.yml
+[0m01:23:33.425544 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m01:23:33.425544 [debug] [MainThread]: Command `dbt debug` failed at 01:23:33.425544 after 5.05 seconds
+[0m01:23:33.425544 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AAFD173880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AAA0F3B2E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AAA51C8370>]}
+[0m01:23:33.425544 [debug] [MainThread]: Flushing usage events
+[0m01:23:33.749604 [debug] [MainThread]: An error was encountered while trying to flush usage events

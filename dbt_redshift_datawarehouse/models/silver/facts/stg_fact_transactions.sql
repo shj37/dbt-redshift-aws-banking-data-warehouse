@@ -1,0 +1,29 @@
+{{
+    config(
+        materialized='incremental',
+        alias='stg_fact_transactions',
+        schema=var('silver_schema'),
+        unique_key='transaction_id',
+        incremental_strategy='delete+insert',
+        primary_key='transaction_id',
+        sort_key='transaction_id',
+        distribution='even'
+    )
+}}
+ 
+SELECT
+    transaction_id,
+    customer_id,
+    date_id,
+    channel_id,
+    account_id,
+    txn_type_id,
+    location_id,
+    currency_id,
+    loan_id,
+    investment_type_id,
+    txn_amount,
+    txn_status,
+    getdate() as created_at
+FROM
+    {{var('bronze_schema')}}.external_fact_transactions

@@ -1,0 +1,13 @@
+interaction_id|date_id|customer_id|channel_id|interaction_type|interaction_rating
+1|5|1|2|Email|2
+2|1|2|1|Email|4
+3|4|2|2|Email|3
+4|4|3|3|Email|2
+5|7|3|1|Chat|1
+6|5|4|3|Chat|1
+7|6|5|1|Email|5
+8|1|5|3|Email|5
+9|5|6|2|Email|3
+10|7|7|3|Chat|1
+11|4|8|2|Call|5
+12|5|8|2|Chat|3

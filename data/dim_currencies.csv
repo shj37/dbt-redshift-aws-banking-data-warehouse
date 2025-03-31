@@ -1,0 +1,4 @@
+currency_id|name|iso3_code|active
+1|USD|USD|True
+2|EUR|EUR|True
+3|GBP|GBP|True
